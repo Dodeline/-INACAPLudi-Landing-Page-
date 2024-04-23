@@ -1,0 +1,29 @@
+<html>
+Hola Marie
+club "INACAPLudi"
+<!DOCTYPE html>
+<html> 
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INACAPLudi - Club de Juegos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>¡Únete a INACAPLudi!</h1>
+    </header>
+    <main>
+        <section>
+            <h2>¿Qué ofrecemos?</h2>
+            <ul>
+                <li>Espacios para jugar</li>
+                <li>Ludoteca</li>
+
+                <li>Eventos locales</li>
+                <li>Eventos intersedes</li>
+                <li>Charlas y talleres</li>
+            </ul>
+        </section>
+        <section>
+            <h2>¿Cómo unirse?</h2>

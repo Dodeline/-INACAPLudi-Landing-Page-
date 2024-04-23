@@ -1,2 +1,51 @@
-<html>
-Hola Marie
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INACAPLudi - Club de Juegos de Mesa y Rol</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #87CEEB; /* Cambio de fondo a celeste */
+            color: white; /* Cambio de color de texto a blanco */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>INACAPLudi</h1>
+        <p>¡Bienvenido al club oficial de juegos de mesa y rol de INACAP!</p>
+    </header>
+    <section id="about">
+        <h2>Acerca de Nosotros</h2>
+        <p>"INACAPLudi" es el club oficial de juegos de mesa y de rol de INACAP, autorizado por la DAE a nivel nacional. Nos dedicamos a reunir a estudiantes y entusiastas de todas las sedes para compartir nuestra pasión por los juegos, la estrategia y la creatividad.</p>
+    </section>
+    <section id="activities">
+        <h2>Nuestras Actividades</h2>
+        <ul>
+            <li>Espacios en cada sede para realizar partidas en horarios hábiles.</li>
+            <li>Ludoteca con una variedad de juegos y libros disponibles para los socios.</li>
+            <li>Eventos locales e inter-sedes para jugar libremente.</li>
+            <li>Charlas y talleres para la comunidad inacapina.</li>
+        </ul>
+    </section>
+    <section id="join">
+        <h2>Únete a Nosotros</h2>
+        <p>¡Únete a nuestro club y sumérgete en la emoción y camaradería que ofrecen los juegos de mesa y de rol!</p>
+        <a href="#contact" class="cta">Contáctanos</a>
+    </section>
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>¡Déjanos tu información de contacto para obtener acceso a nuestra biblioteca de juegos y manuales!</p>
+        <form action="submit.php" method="post">
+            <input type="text" name="name" placeholder="Nombre" required>
+            <input type="email" name="email" placeholder="Correo Electrónico" required>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 INACAPLudi - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
